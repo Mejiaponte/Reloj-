@@ -14,4 +14,11 @@ ellipse(width/ 2, y, 50, 50)
         y = 0
     else:
         y = map(second(), 0, 59, 0, height)
-        
+
+
+ellipse(width/ 2, y, 50, 50)
+    fill(17, 242, 26)
+    if y > height :
+        y = 0
+    else:
+        y = map(minute(), 0, 60, 0, height)      
