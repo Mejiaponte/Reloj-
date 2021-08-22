@@ -8,3 +8,10 @@ def draw() :
     background(175)
 
 
+ellipse(width/ 2, y, 50, 50)
+    fill(19, 28, 237)
+    if y > height :
+        y = 0
+    else:
+        y = map(second(), 0, 59, 0, height)
+        
