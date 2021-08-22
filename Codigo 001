@@ -21,4 +21,12 @@ ellipse(width/ 2, y, 50, 50)
     if y > height :
         y = 0
     else:
-        y = map(minute(), 0, 60, 0, height)      
+        y = map(minute(), 0, 60, 0, height)  
+
+
+ellipse(width/ 2, y, 50, 50)
+    fill(242, 17, 36)
+    if y > height :
+        y = 0
+    else:
+        y = map(hour(), 0, 24, 0, height)    
